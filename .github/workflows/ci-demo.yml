@@ -38,6 +38,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Run a multi-line script
-        run: |
-          echo "This is 3rd line by dev3">>mydemo.txt
