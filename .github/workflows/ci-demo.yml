@@ -28,9 +28,16 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
+      - name: current directory on runner
+        run: pwd
+      - name: list the files in directory
+        run: ls
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Run a multi-line script
+        run: |
+          echo "This is 3rd line by dev3">>mysredemo/mydemo.txt
