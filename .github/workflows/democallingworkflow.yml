@@ -3,5 +3,5 @@ on:
   workflow_dispatch: 
 
 jobs:
-  call-reuseable:
+  call-reusable:
     uses: ./.github/workflows/democalledworkflow.yml
