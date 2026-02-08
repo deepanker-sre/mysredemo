@@ -1,0 +1,12 @@
+name: Workflow being called
+on:
+  workflow_call:
+
+jobs:
+  build:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Checkout
+    uses: action/checkout@4.2.0
+   - name: Run reusable build step
+    run: 'This is reusable workflow'
