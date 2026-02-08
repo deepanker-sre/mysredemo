@@ -1,0 +1,7 @@
+name: democallingworkflow
+on:
+  workflow_dispatch: 
+
+jobs:
+  call-reuseable:
+    uses: ./.github/workflows/democalledworkflow.yml
