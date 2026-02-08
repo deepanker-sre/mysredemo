@@ -4,4 +4,4 @@ on:
 
 jobs:
   call-reusable:
-    uses: ./.github/workflows/democalledworkflow.yml
+    uses: "./.github/workflows/democalledworkflow.yml"
